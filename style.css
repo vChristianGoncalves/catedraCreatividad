@@ -1,6 +1,5 @@
 * {
     padding: 0;
-    overflow: hidden;
 }
 
 body {
@@ -107,7 +106,7 @@ p::first-letter {
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
-    margin-top: 120px;
+    margin-top: 50px;
 }
 
 .galeria img {
@@ -164,9 +163,9 @@ p::first-letter {
 }
 
 #toggleBtn {
-    position: relative;   /* permite moverlo respecto a su posición normal */
-    top: -100px;           /* lo subes 50px (ajusta a tu gusto) */
-    left: 20px;           /* lo mueves un poco a la derecha */
+    position: relative;
+    top: -100px;
+    left: 20px;
     padding: 10px 50px;
     border: none;
     border-radius: 8px;
@@ -174,8 +173,8 @@ p::first-letter {
     color: white;
     font-size: 16px;
     cursor: pointer;
-  }
+}
 
-  #toggleBtn:hover {
+#toggleBtn:hover {
     background: #5574ca;
-  }
+}
